@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  margin: 0;
+  margin-bottom: 130px;
+/*  padding-bottom: 130px;*/
+  font-family: Arial, sans-serif;
+}
+.sidebar {
+  width: 30%;
+  background-color: #f4f4f4;
+  padding: 10px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  height: 100vh;
+  overflow-y: auto;
+}
+.content {
+  width: 70%;
+  padding: 20px;
+  height: 100vh;
+  overflow-y: auto;
+}
+.article {
+   margin-bottom: 5px;
+   cursor: pointer;
+   padding: 10px;
+   border: 1px solid #ddd;
+   background-color: #fff;
+}
+.article:hover {
+   background-color: #f0f0f0;
+}
+
+.blockquote {
+  font-size: 1.5em; /* Adjust font size as needed */
+  text-align: justify;
+  font-style: italic;
+  margin: 20px; /* Add some spacing around the blockquote */
+  padding: 10px; /* Add inner padding */
+  border-left: 5px solid #ccc; /* Add a subtle vertical line on the left */
+  background-color: #f9f9f9; /* Light background to make it stand out */
+}
+
+.pulse {
+  background: rgb(var(--pulse-color));
+  
+  box-shadow: 0 0 0 0 rgba(var(--pulse-color), 1);
+  transform: scale(1);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(var(--pulse-color), 0.7);
+  }
+
+  70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 15px rgba(var(--pulse-color), 0);
+  }
+
+  100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(var(--pulse-color), 0);
+  }
+}
+
+/* Define different color circles */
+.pulse.red {
+--pulse-color: 222, 84, 72;
+}
+.pulse.blue {
+--pulse-color: 66, 103, 178;
+}
+.pulse.green {
+--pulse-color: 76, 175, 80;
+}
+.pulse.yellow {
+--pulse-color: 255, 210, 63;
+}
