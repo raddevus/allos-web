@@ -86,27 +86,30 @@ qemu-system-riscv64 -machine 'virt' \
 ```
 
 Once you start the virtual environment login using :
+
 root (username) and root (pwd)
 
-Now you can install the build_essential packages so you can write assembly and link.
+Now you can install the **build_essential** packages so you can write assembly and link.
 You are root so no need for sudo:
 
-$ apt install build-essential
+`$ apt install build-essential`
+
 You can check that the Assembler (as) and the linker (ld) are installed after that, by doing the following which will give you the versions of each exe.
 
-$ as --version
+`$ as --version`
 
-$ ld --version
-Once you do that.
+`$ ld --version`
 
-You can open up the nano editor and write your asm and go through the rest of the samples in the book (RISC-V Assembly Language Programming: Unlock the Power of the RISC-V Instruction Set[^]).
+Once you do that you can open up the nano editor and write your asm and go through the rest of the samples in the book (<a href="https://amzn.to/43UdTHk" target="_blank">RISC-V Assembly Language Programming: Unlock the Power of the RISC-V Instruction Set[^]</a>).
 
-Points of Interest
-If you've ever wanted to emulate machines running QEMU (QEMU Offical site / docs[^]) this will be a good starter for you.  I had to work through a lot to get this going since I've never ran QEMU on my own before.
+## Points of Interest
+
+If you've ever wanted to emulate machines running QEMU (<a href="https://www.qemu.org/">QEMU Offical site / docs[^]</a>). This will be a good starter for you.  I had to work through a lot to get this going since I've never ran QEMU on my own before.
 
 If you try this out and get Debian running on your machine, I think you'll be pleasantly surprised.
 
 I got this running on my Mac Pro M3 Laptop too.  I'll write that one up soon too.
 
-History
+## History
+
 May 28, 2024 - First publication
