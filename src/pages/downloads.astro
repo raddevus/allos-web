@@ -10,7 +10,8 @@ const downloads = [
   name: "DiscoProcs Linux X86_64 (Intel/AMD) zip package ",
     version: "v1.0.0",
     file: "/downloads/DiscoProcs-LinuxX64.zip",
-    size: "35.4 MiB"
+    size: "35.4 MiB",
+    info: "/blog/x86_64_zip",
   }
 ];
 
@@ -27,7 +28,8 @@ const downloads = [
         <li>
           <strong>{d.name}</strong> ({d.version}) — {d.size}
           <br />
-          <a href={d.file} download>Download</a>
+          <a href={d.file} download>Download</a><br>
+          For more info see: <a href={d.info}>Installation notes and screen shots</a>
         </li>
       ))}
 
