@@ -1,6 +1,6 @@
 ---
 title: Installing on Linux From Zip File
-slug: x86_64_zip 
+slug: Linux_x86_64_zip 
 publishDate: 20 July 2025
 description: Follow these steps to unzip & run DiscoProcs on you Linux system. 
 ---
