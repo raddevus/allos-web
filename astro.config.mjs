@@ -7,7 +7,7 @@ import rehypeExternalLinks from 'rehype-external-links'
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astro-blog-template.netlify.app',
+  site: 'https://allos.dev',
   integrations: [mdx(), svelte()],
    server: {
     port: 4321,       // Change this to your desired port
