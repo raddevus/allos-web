@@ -4,6 +4,19 @@ slug: shipIt
 publishDate: 10 Aug 2025
 description: You learn by doing, so start building & ship the thing.
 ---
+<!-- Open Graph -->
+<meta property="og:title" content="Ship It!  Build The Thing (and Learn)" />
+<meta property="og:description" content="You learn by doing, so start building and ship the thing." />
+<meta property="og:image" content="https://allos.dev/assets/allosDevLogo-1.webp" />
+<meta property="og:url" content="https://allos.dev/blog/shipIt" />
+<meta property="og:type" content="article" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Ship It! Build the Thing! (and Learn)" />
+<meta name="twitter:description" content="You learn by doing, so start building and ship the thing." />
+<meta name="twitter:image" content="https://allos.dev/assets/allosDevLogo-1.webp" />
+
 ## Ship It!
 Your target is to deploy your app so others can use it. Keep that target in mind and you will produce something.
 
