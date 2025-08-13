@@ -4,6 +4,19 @@ slug: wcpa_chpt1
 publishDate: 13 Aug 2025
 description: Introduction To What the Book Is All About
 ---
+<!-- Open Graph -->
+<meta property="og:title" content="Writing Cross-Platform Apps Introduction" />
+<meta property="og:description" content="Introduction to my FREE book, Writing Cross-Platform Apps" />
+<meta property="og:image" content="https://allos.dev/assets/allosDevLogo-1.webp" />
+<meta property="og:url" content="https://allos.dev/blog/wcpa_chpt1" />
+<meta property="og:type" content="article" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Writing Cross-Platform Apps Introduction") />
+<meta name="twitter:description" content="Introduction to my FREE book, Writing Cross-Platform Apps." />
+<meta name="twitter:image" content="https://allos.dev/assets/allosDevLogo-1.webp" />
+
 ## Does Anyone Still Want To Learn To Program?
 I've been writing software applications and creating automated solutions for over 30 years now and I still love to write code to create software solutions.
 
