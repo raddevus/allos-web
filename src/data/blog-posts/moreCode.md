@@ -13,7 +13,7 @@ description: You learn to code by typing code & running it.
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="WType More Code: RDD - REPL Driven Development") />
+<meta name="twitter:title" content="Type More Code: RDD - REPL Driven Development") />
 <meta name="twitter:description" content="You learn to code by typing code & running it." />
 <meta name="twitter:image" content="https://allos.dev/assets/allosDevLogo-1.webp?v=3" />
 
