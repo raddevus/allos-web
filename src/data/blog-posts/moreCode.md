@@ -4,6 +4,19 @@ slug: typeMore
 publishDate: 07 Sep 2025
 description: You learn to code by typing code & running it. 
 ---
+<!-- Open Graph -->
+<meta property="og:title" content="Type More Code: RDD - REPL Driven Development" />
+<meta property="og:description" content="You learn to code by typing code & running it" />
+<meta property="og:image" content="https://allos.dev/assets/allosDevLogo-1.webp?v=3"  />
+<meta property="og:url" content="https://allos.dev/blog/typeMore" />
+<meta property="og:type" content="article" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="WType More Code: RDD - REPL Driven Development") />
+<meta name="twitter:description" content="You learn to code by typing code & running it." />
+<meta name="twitter:image" content="https://allos.dev/assets/allosDevLogo-1.webp?v=3" />
+
 Here's how I've always learned to code:
 1. Write (or change) the smallest amount of code that does something.
 2. Build.  See if the code I typed passes the compiler.
