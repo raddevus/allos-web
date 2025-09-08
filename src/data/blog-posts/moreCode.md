@@ -54,7 +54,7 @@ Here are the steps that I've worked out for you to make that easier.
 |<code> $ cd &lt;ProjectName&gt; </code>    | Change Directory into folder.              |
 |<code> $ dotnet new console -o &lt;ProjectName&gt; </code> | Creates new console app proj. with same name as outer folder. |
 |<code> $ dotnet new sln </code> | Creates new solution file to reference all projects.      |
-|<code> $ dotnet new sln add &lt;ProjectName&gt; </code> | Adds the main console project to the SLN file.|
+|<code> $ dotnet sln add &lt;ProjectName&gt; </code> | Adds the main console project to the SLN file.|
 |<code> $ dotnet new xunit -o &lt;ProjectName&gt;.Tests </code> | Creates XUnit test proj &amp; adds all depedencies. XUnit proj folder will look like `MyProject.Tests` |
 |<code> $ dotnet sln add &lt;ProjectName&gt;.Tests </code> | Adds Unit Test project to SLN file. |
 |<code> $ dotnet add &lt;ProjectName&gt;.Tests reference &lt;ProjectName&gt; </code> | Adds a reference to main project (&lt;ProjectName&gt;.dll) into the XUnit test project so it can be referenced.      |
@@ -68,7 +68,7 @@ Here's what that looked like when I did this for our project: CpSysInfo
 |<code> $ cd CpSysInfo </code>    | Change Directory into folder.              |
 |<code> $ dotnet new console -o CpSysInfo </code> | Creates new console app proj. with same name as outer folder. |
 |<code> $ dotnet new sln </code> | Creates new solution file to reference all projects.      |
-|<code> $ dotnet new sln add CpSysInfo </code> | Adds the main console project to the SLN file.|
+|<code> $ dotnet sln add CpSysInfo </code> | Adds the main console project to the SLN file.|
 |<code> $ dotnet new xunit -o CpSysInfo.Tests </code> | Creates XUnit test proj &amp; adds all depedencies. XUnit proj folder will look like `CpSysInfo.Tests` |
 |<code> $ dotnet sln add CpSysInfo.Tests </code> | Adds Unit Test project to SLN file. |
 |<code> $ dotnet add CpSysInfo.Tests reference CpSysInfo </code> | Adds a reference to main project (CpSysInfo.dll) into the XUnit test project so it can be referenced.      |
